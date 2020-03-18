@@ -1,4 +1,6 @@
+# **Find PI to the Nth Digit**
 
+#  - Enter a number and have the program generate &pi; (pi) up to that many decimal places. Keep a limit to how far the program will go.
 
 
 pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286
