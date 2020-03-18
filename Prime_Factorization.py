@@ -17,7 +17,7 @@ def primeFactorize(n):
 
 if __name__=='__main__':
 	print ("Welcome to the Prime Factorizer.. Enter the numbers in the prompt or enter 'quit' to exit")
-	num=0;
+	num=0
 	
 	while True:
 		if num:
