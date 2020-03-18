@@ -1,4 +1,4 @@
-List of Capstone Projects
+<h1>List of Capstone Projects</h1>
 
 
 
@@ -16,7 +16,7 @@ HAVE FUN!
 
 
 
-Numbers
+<h3>Numbers</h3>
 
 
 Find PI to the Nth Digit - Enter a number and have the program generate π (pi) up to that many decimal places. Keep a limit to how far the program will go.
@@ -69,8 +69,7 @@ Fast Exponentiation - Ask the user to enter 2 integers a and b and output a^b (i
 
 
 
-Classic Algorithms
-
+<h3>Classic Algorithms</h3>
 
 Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
 
@@ -83,7 +82,7 @@ Sieve of Eratosthenes - The sieve of Eratosthenes is one of the most efficient w
 
 
 
-Graph
+<h3>Graph</h3>
 
 Graph from links - Create a program that will create a graph or network from a series of links.
 
@@ -98,15 +97,13 @@ Minimum Spanning Tree - Create a program which takes a connected, undirected gra
 
 
 
-Data Structures
-
+<h3>Data Structures</h3>
 
 Inverted index - An Inverted Index is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 
 
-Text
-
+<h3>Text</h3>
 
 Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
@@ -135,7 +132,7 @@ Regex Query Tool - A tool that allows the user to enter a text string and then i
 
 
 
-Networking
+<h3>Networking</h3>
 
 
 FTP Program - A file transfer program which can transfer files back and forth from a remote web sever.
@@ -157,7 +154,7 @@ Site Checker with Time Scheduling - An application that attempts to connect to a
 
 
 
-Classes
+<h3>Classes</h3>
 
 
 Product Inventory Project - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
@@ -184,7 +181,7 @@ Family Tree Creator - Create a class called Person which will have a name, when 
 
 
 
-Threading
+<h3>Threading</h3>
 
 
 Create A Progress Bar for Downloads - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
@@ -195,7 +192,7 @@ Bulk Thumbnail Creator - Picture processing can take a bit of time for some tran
 
 
 
-Web
+<h3>Web</h3>
 
 
 Page Scraper - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.
@@ -220,7 +217,7 @@ CAPTCHA Maker - Ever see those images with letters a numbers when you signup for
 
 
 
-Files
+<h3>Files</h3>
 
 
 Quiz Maker - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
@@ -240,7 +237,7 @@ Code Snippet Manager - Another utility program that allows coders to put in func
 
 
 
-Databases
+<h3>Databases</h3>
 
 
 SQL Query Analyzer - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
@@ -260,7 +257,7 @@ Travel Planner System - Make a system that allows users to put together their ow
 
 
 
-Graphics and Multimedia
+<h3>Graphics and Multimedia</h3>
 
 
 Slide Show - Make an application that shows various pictures in a slide show format. Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.
@@ -278,7 +275,7 @@ GIF Creator A program that puts together multiple images (PNGs, JPGs, TIFFs) to 
 
 
 
-Security
+<h3>Security</h3>
 
 
 Caesar cipher - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys
