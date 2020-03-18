@@ -4,7 +4,7 @@
 # up to that many decimal places. Keep a limit to how far the program will go.
 
 import random
-
+e = round(random.random(), 100)
 
 def upTo():
     after_comma = None
@@ -15,7 +15,7 @@ def upTo():
         except ValueError:
                     print('Sorry, a bet must be an number!')
         else:
-            result = round(random.random(), after_comma)
+            result = round(e, after_comma)
             print(f'Here is pi with {after_comma} numbers after the dot: {result}')
             upTo()
 
