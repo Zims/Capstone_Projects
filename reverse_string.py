@@ -10,8 +10,6 @@ def reverser():
     else:
         revstr = str[::-1]
         print(revstr)
-
-
     reverser()
 
 reverser()
