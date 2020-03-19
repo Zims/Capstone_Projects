@@ -24,7 +24,7 @@ HAVE FUN!
 
 --- Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-* Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+--- Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 * Next Prime Number - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
@@ -104,7 +104,7 @@ HAVE FUN!
 
 <h3>Text</h3>
 
-* Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+--- Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 * Reverse a String - Enter a string and the program will reverse it and print it out.
 
