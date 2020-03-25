@@ -12,4 +12,9 @@ def reverser():
         print(revstr)
     reverser()
 
-reverser()
+def justAdd(x,y):
+    
+    z = x + y
+    print(z)
+# reverser()
+justAdd(9,5)
