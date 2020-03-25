@@ -15,4 +15,4 @@ def vowel_counter(lowecase_input):
     print(final)
     print(Counter(final))
 
-vowel_counter(lowecase_input)ß
+vowel_counter(lowecase_input)
