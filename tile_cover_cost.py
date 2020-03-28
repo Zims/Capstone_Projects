@@ -17,53 +17,47 @@
 
 # Room size --
 # (x, z) = x is len. z is height
-big_width = (4.0, 2.2)
-short_width = (3.0, 2.2)
-tile_size = (0.2, 0.3)
+# big_width = (4.0, 2.2)
+# short_width = (3.0, 2.2)
+# tile_size = (0.2, 0.3)
 extra_tile = 1.15
 
 
+def get_lenght():
+    while type(input) != int or float:
+        try:
+            x_lenght = float(input('*  The floor length in meters? '))
+            return x_lenght
+        except ValueError:
+            print('Sorry, use a number! (50cm = 0.5)')
 
+
+def get_width():
+    while type(input) != int or float:
+        try:
+            y_width = float(input('*  The floor width in meters? '))
+            return y_width
+        except ValueError:
+            print('Sorry, use a number! (50cm = 0.5)')
+        else:
+            print(y_width)
 
 def get_price():
+    sq_m = get_lenght() * get_width()
     price_sqm = None
     while type(price_sqm) != int or float:
         try:
-            price_sqm = float(input('The price per sqm? '))
+            price_sqm = float(input('*  The price per sqm? '))
         except ValueError:
             print('Sorry, price in USD!')
         else:
+            print('*'*132)
+            extra = round(sq_m * extra_tile, 2)
+            print(f'*  You raw diameters are {sq_m} sq/m but we advise 15% extra. That is {extra} sq/m')
+            whole_price = sq_m * 1.15 * price_sqm
+            print(f'{"-"*45}✅ The whole price is {whole_price} USD.✅ {"-"*42} \n  Type in different price or press Ctrl + C to exit or start over for different room.')
+            print('*'*132)
 
-            whole_price = round(price_sqm * whole_area, 2)
-            print(f'The whole price is {whole_price} USD. Press Ctrl + C to exit')
-
-
-def sq_area(gabarites):
-    return gabarites[0] * gabarites[1]
-
-def wall_sq_area(x, z):
-    return x*2 + z*2
-
-def floor_sq_area(x, y):
-    return x * y
-
-big_wall = round(sq_area(big_width), 2)
-
-small_wall = round(sq_area(short_width), 2)
-
-tile_area = round(sq_area(tile_size), 3)
-
-whole_area = round(wall_sq_area(big_wall, small_wall), 2)
-
-should_buy = round(whole_area * extra_tile, 2)
-
-
-
-# print(big_wall)
-# print(small_wall)
-# print(tile_area)
-print(whole_area)
-print(f'The whole area is {whole_area} sq/m')
-print(f'To be on the safe side you should buy 15% extra tile. That\'s {should_buy} sq/m')
 
 get_price()
+# get_width()

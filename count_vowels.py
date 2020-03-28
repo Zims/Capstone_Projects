@@ -9,9 +9,6 @@ user_input = input('Write a text and I will count the vowels: ')
 lowecase_input = user_input.lower()
 
 def vowel_counter(lowecase_input):
-
-    
-
     vowel = ['a', 'e', 'i', 'o', 'u']
     final = [each for each in lowecase_input if each in vowel]
     
