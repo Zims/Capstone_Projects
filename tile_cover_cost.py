@@ -2,24 +2,10 @@
 # Calculate the total cost of tile it would take to cover a room, 
 # using a cost entered by the user. Visual or ui???
 
-# fitst calculate for a room 2x400*220cm and 2x300*220cm. Tile = 20*30cm. Price per m**2 = x. 
-# Calculate needed m**2 to cover room. 
-
-# CRATE x y axes input
-# Advanced: Check length and width vs full tile count + count of tiles that are cut. 
-# Or sq/m of full tiles + extra 1 for each row and collumn - 1
 
 # Ask is it walls or floor. Seperate func for any choice
 
 
-# Also, add 20% to the total square footage if the tigitle is being laid in a diagonal or diamond pattern. Try wakatime
-
-
-# Room size --
-# (x, z) = x is len. z is height
-# big_width = (4.0, 2.2)
-# short_width = (3.0, 2.2)
-# tile_size = (0.2, 0.3)
 extra_tile = 1.15
 
 
