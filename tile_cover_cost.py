@@ -51,12 +51,12 @@ def get_price():
         except ValueError:
             print('Sorry, price in USD!')
         else:
-            print('*'*132)
+            print('*'*58)
             extra = round(sq_m * extra_tile, 2)
-            print(f'*  You raw diameters are {sq_m} sq/m but we advise 15% extra. That is {extra} sq/m')
+            print(f'*  You raw diameters are {sq_m} sq/m but we advise 15% extra. \n*  That is {extra} sq/m\n')
             whole_price = sq_m * 1.15 * price_sqm
-            print(f'{"-"*45}✅ The whole price is {whole_price} USD.✅ {"-"*42} \n  Type in different price or press Ctrl + C to exit or start over for different room.')
-            print('*'*132)
+            print(f'             ✅ The whole price is {whole_price} USD.✅ \n\n*  Type in different price or press Ctrl + C to exit \n*  or start over for different room.')
+            print('/\\'*29)
 
 
 get_price()
