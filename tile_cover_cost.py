@@ -35,9 +35,9 @@ def get_price():
             print('*'*60)
             extra = round(sq_m * extra_tile, 2)
             print(f'*  You raw diameters are {sq_m} sq/m but we advise 15% extra. \n*  That is {extra} sq/m\n')
-            whole_price = sq_m * 1.15 * price_sqm
+            whole_price = round(sq_m * 1.15 * price_sqm, 2)
 
-            
+
             print(':'*60)
             print(f'''      ✅ The whole price is {whole_price} USD.✅
             \n* Type in different price or press Ctrl + C to exit 
