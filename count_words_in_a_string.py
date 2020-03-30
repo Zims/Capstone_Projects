@@ -6,3 +6,10 @@ given_string = 'this is so heavy'
 
 string_to_list = given_string.split()
 print(len(string_to_list))
+
+f = open("/Users/zims/Desktop/count_me.txt", "r")
+string_from_file = (f.read())
+list_from_file = string_from_file.split()
+word_in_file = len(list_from_file)
+print(f'The file contains {word_in_file} words')
+
