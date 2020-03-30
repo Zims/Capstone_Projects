@@ -2,12 +2,7 @@
 # Calculate the total cost of tile it would take to cover a room, 
 # using a cost entered by the user. Visual or ui???
 
-
-# Ask is it walls or floor. Seperate func for any choice
-
-
 extra_tile = 1.15
-
 
 def get_lenght():
     while type(input) != int or float:
@@ -37,13 +32,17 @@ def get_price():
         except ValueError:
             print('Sorry, price in USD!')
         else:
-            print('*'*58)
+            print('*'*60)
             extra = round(sq_m * extra_tile, 2)
             print(f'*  You raw diameters are {sq_m} sq/m but we advise 15% extra. \n*  That is {extra} sq/m\n')
             whole_price = sq_m * 1.15 * price_sqm
-            print(f'             ✅ The whole price is {whole_price} USD.✅ \n\n*  Type in different price or press Ctrl + C to exit \n*  or start over for different room.')
-            print('/\\'*29)
+
+            
+            print(':'*60)
+            print(f'''      ✅ The whole price is {whole_price} USD.✅
+            \n* Type in different price or press Ctrl + C to exit 
+            \n* or start over for different room.\n''')
+            print('\\../'*15)
 
 
 get_price()
-# get_width()
