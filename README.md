@@ -1,4 +1,4 @@
-<h1>List of Capstone Projects. Project to advance my skills in python</h1>
+<h1>List of Capstone Projects.</h1>
 
 
 
